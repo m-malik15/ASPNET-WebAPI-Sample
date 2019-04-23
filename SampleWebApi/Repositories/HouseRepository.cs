@@ -14,6 +14,7 @@ namespace SampleWebApi.Repositories
             _houses.Add(2, new HouseEntity() { City = "Town2", Id = 2, Street = "Street2", ZipCode = 1234 });
             _houses.Add(3, new HouseEntity() { City = "Town3", Id = 3, Street = "Street3", ZipCode = 1234 });
             _houses.Add(4, new HouseEntity() { City = "Town4", Id = 4, Street = "Street4", ZipCode = 1234 });
+            _houses.Add(4, new HouseEntity() { City = "Town5", Id = 5, Street = "Street5", ZipCode = 1234 });
         }
 
         public List<HouseEntity> GetAll()
